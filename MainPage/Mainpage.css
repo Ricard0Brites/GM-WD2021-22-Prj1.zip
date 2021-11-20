@@ -19,26 +19,34 @@ html {
   font-size: 30px;
   font-family: "QuickSand";
   color: black;
-  font-size: 30px; 
+  font-size: 30px;
   scrollbar-width: none; /*removes scrollbar on chrome */
   -ms-overflow-style: none; /*removes scroll bar on IE and edge*/
 }
-html a
-{
+html a {
   text-decoration: none;
   color: black;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 1px black;
 }
-html::-webkit-scrollbar
-{
+html::-webkit-scrollbar {
   display: none; /* removes scrollbar on firefox */
 }
 body {
-  background-color: #1b1b1b;
   overflow-x: hidden;
 }
-#background-container
-{
+.background-color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+#background-container {
   top: 0;
   bottom: 0;
   left: 0;
@@ -46,10 +54,9 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
 }
-.background
-{
+.background {
   top: 0;
   left: 0;
   margin: 0;
@@ -63,6 +70,7 @@ body {
 /* Main Page -------------------------------------------------------------------------------------------------------- */
 .lead-header {
   height: 20rem;
+  z-index: 1;
 }
 .lead-header-main {
   padding-top: 15%;
@@ -88,23 +96,21 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-.lead-header-body div{
+.lead-header-body div {
   margin-top: 1rem;
 }
-.lead-header-body-buttons
-{
+.lead-header-body-buttons {
   display: flex;
   justify-content: center;
   width: 10rem;
   border-radius: 20px;
-  background-color: #4545ffd1;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
-.lead-header-body-buttons:hover
-{
+.lead-header-body-buttons:hover {
   transition: 0.3s ease-out;
-  filter: drop-shadow(0 0 0.50rem rgb(12, 150, 255));
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
 }
