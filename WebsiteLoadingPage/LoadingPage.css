@@ -61,7 +61,7 @@ body {
   margin-top: calc(25% - 400px);
   transform: scale(50%);
 }
-#mainContainer:hover {
+#mainContainer.pageLoadAnimation {
   transition: 2s ease-out;
   transform: scale(100%);
   transform: translateX(-25%);
