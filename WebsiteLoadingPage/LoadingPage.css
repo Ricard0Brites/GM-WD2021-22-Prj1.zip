@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+@font-face {
+  font-family: "Quicksand", sans-serif;
+
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+}
+
+@font-face {
+  font-family: "Quicksand", sans-serif;
+
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+}
+
+/* root */
+html {
+  font-size: 30px;
+  font-family: "QuickSand";
+  color: white;
+  font-size: 30px;
+  scrollbar-width: none; /*removes scrollbar on chrome */
+  -ms-overflow-style: none; /*removes scroll bar on IE and edge*/
+}
+html::-webkit-scrollbar {
+  display: none; /* removes scrollbar on firefox */
+}
+body {
+  background-color: #1b1b1b;
+  overflow-x: hidden;
+}
+
+/* logo */
+#gradient {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  margin-left: calc(50% - 400px);
+  margin-top: calc(25% - 400px);
+  background: linear-gradient(#eb5f24, #5b67ed);
+  border-radius: 10000px;
+}
+#logo {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  margin-left: calc(50% - 400px);
+  margin-top: calc(25% - 400px);
+}
+#logo img {
+  border-radius: 1000px;
+  transform: scale(95%);
+}
+
+#mainContainer {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  margin-left: calc(50% - 400px);
+  margin-top: calc(25% - 400px);
+  transform: scale(50%);
+}
+#mainContainer:hover {
+  transition: 2s ease-out;
+  transform: scale(100%);
+  transform: translateX(-25%);
+  transform: translateY(25%);
+}
