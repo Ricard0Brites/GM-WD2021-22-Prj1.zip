@@ -40,7 +40,7 @@ body {
   left: 0;
   right: 0;
   margin: 0;
-  background-image: url("../Content Repository/Banner Image.png");
+  background-image: url("../ContentRepository/BannerImage.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -211,16 +211,16 @@ body {
   margin-bottom: 3%;
 }
 #city-card {
-  background-image: url("../Content Repository/City Theme Cover.jpg");
+  background-image: url("../ContentRepository/CityThemeCover.jpg");
 }
 #cars-card {
-  background-image: url("../Content Repository/Cars Theme Cover.jpg");
+  background-image: url("../ContentRepository/CarsThemeCover.jpg");
 }
 #nature-card {
-  background-image: url("../Content Repository/Nature Theme Cover.jpg");
+  background-image: url("../ContentRepository/NatureThemeCover.jpg");
 }
 #people-card {
-  background-image: url("../Content Repository/People Theme cover.jpg");
+  background-image: url("../ContentRepository/PeopleThemecover.jpg");
 }
 .card {
   font-size: 5rem;
@@ -240,7 +240,7 @@ body {
 }
 .card:hover {
   transition: 0.5s ease-out;
-  transform: scale(115%, 110%);
+  transform: scale(115%);
   box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.3),
     -0.5rem -0.5rem 3rem rgba(0, 0, 0, 0.3),
     -0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.3),

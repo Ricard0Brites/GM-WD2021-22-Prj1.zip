@@ -39,7 +39,7 @@ body {
   left: 0;
   right: 0;
   margin: 0;
-  background-image: url("../../Content Repository/Banner Image.png");
+  background-image: url("../../ContentRepository/BannerImage.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -117,7 +117,7 @@ body {
 }
 .card:hover {
   transition: 0.5s ease-out;
-  transform: scale(115%, 110%);
+  transform: scale(115%);
   box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.3),
     -0.5rem -0.5rem 3rem rgba(0, 0, 0, 0.3),
     -0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.3),

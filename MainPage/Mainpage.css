@@ -60,7 +60,7 @@ body {
   top: 0;
   left: 0;
   margin: 0;
-  background-image: url("../Content Repository/City Banner Image.jpg");
+  background-image: url("../ContentRepository/CityBannerImage.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
