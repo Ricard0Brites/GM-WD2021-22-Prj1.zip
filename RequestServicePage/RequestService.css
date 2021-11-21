@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+@font-face {
+  font-family: "Quicksand", sans-serif;
+
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+}
+
+@font-face {
+  font-family: "Quicksand", sans-serif;
+
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+}
+
+/* root */
+html {
+  font-size: 30px;
+  font-family: "QuickSand";
+  color: white;
+  font-size: 30px;
+  scrollbar-width: none; /*removes scrollbar on chrome */
+  -ms-overflow-style: none; /*removes scroll bar on IE and edge*/
+}
+html::-webkit-scrollbar {
+  display: none; /* removes scrollbar on firefox */
+}
+body {
+  background-color: #1b1b1b;
+  overflow-x: hidden;
+}
+
+/* Header ---------------------------------------------------------------------------------------------------------- */
+.main-header-flex-container {
+  /*container properties*/
+
+  background-color: #1d1d1f;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1.3px solid #4b4b4f;
+  border-top: none;
+  flex-direction: row;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+
+  /*text properties*/
+  font-family: "QuickSand";
+
+  text-align: center;
+}
+
+.main-header-flex-container div {
+  flex: 1;
+}
+
+.Header-Logo.grow {
+  transition: 0.7s ease-in-out;
+  height: 4rem;
+  width: 4rem;
+} /* grow animation called in JS */
+.Header-Logo {
+  margin-top: 0.3rem;
+  border-radius: 20px;
+  width: 3rem;
+  height: 3rem;
+} /* Default Values */
+.Header-Logo.resetLogo {
+  transition: 0.7s ease-out;
+  margin-top: 0.3rem;
+  border-radius: 20px;
+  width: 3rem;
+  height: 3rem;
+} /* reset back to Default with a transition */
+
+/* body ----------------------------------------------------------------------------------------------------------*/
+
+/* photo -----------------------------------------------------*/
+.body-flex-container {
+  display: flex;
+}
+.body-photo {
+  flex: 1;
+  margin: 0;
+  left: 0;
+  top: 0;
+  background-image: url("../Content Repository/Sprites/Rent a Service image.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 100%;
+}
+.photo-container {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+/* form -------------------------------------------------------*/
+.body-form-container {
+  height: 100%;
+  width: 40%;
+  margin: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+}
+.form-title {
+  flex: 1;
+  width: 100%;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 20%;
+}
+.form-content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+.name-email-date {
+  flex: 2;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  gap: 30px 0px;
+}
+#desc {
+  flex: 1;
+}
+#desc p {
+  text-align: center;
+  margin: 0%;
+  padding-left: 1rem;
+  padding-top: 1.3rem;
+}
+#inputs {
+  flex: 2;
+  width: 100%;
+  padding-top: 0.2rem;
+}
+#inputs p input {
+  margin: 0%;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 85%;
+  border-radius: 0.5rem;
+}
+#inputs textarea {
+  width: 89%;
+  height: 40%;
+}
+#sendbutton {
+  position: absolute;
+  align-self: center;
+  bottom: 5rem;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 20px;
+}
+#sendbutton a {
+  text-decoration: none;
+  color: inherit;
+  font-family: Quicksand;
+  font-size: 1rem;
+}
+#sendbutton:hover {
+  transition: 0.2s ease-out;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.598);
+}
