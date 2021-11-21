@@ -264,6 +264,10 @@ body {
   margin: 0;
   z-index: -1;
 }
+.card a {
+  text-decoration: inherit;
+  color: inherit;
+}
 
 /* Animations */
 
