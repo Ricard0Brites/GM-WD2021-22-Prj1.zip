@@ -151,7 +151,7 @@ body {
 #sendbutton {
   position: absolute;
   align-self: center;
-  bottom: 5rem;
+  bottom: 0;
   width: 8rem;
   height: 2.5rem;
   border-radius: 20px;
